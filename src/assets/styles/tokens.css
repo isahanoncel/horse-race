@@ -1,0 +1,29 @@
+:root {
+  --c-header: #f8a49c;
+  --c-horselist-bar: #fcee21;
+  --c-program: #5d9cec;
+  --c-results: #a0d468;
+  --c-lap-band: #e9573f;
+  --c-track: #d1d3d4;
+  --c-lane-index: #4c7c34;
+  --c-page: #e8e8e8;
+  --c-finish-line: #c0392b;
+  --c-finish-text: #c0392b;
+  --c-border: #000000;
+  --c-text: #000000;
+  --c-button-face: #ffffff;
+  --font-ui: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-ui);
+  color: var(--c-text);
+  background: var(--c-page);
+}
